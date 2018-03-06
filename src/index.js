@@ -1,2 +1,3 @@
 import Animation from './animation.js';
-export { Animation };
+import Animator from './animator.js';
+export { Animation, Animator };
