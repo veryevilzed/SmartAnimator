@@ -1,5 +1,5 @@
 
-import { Animation, Animator } from '../lib/smart-animator.js';
+import { Animation, Animator } from '../lib/index.js';
 
 test('test animator creation', () => {
   let obj = {

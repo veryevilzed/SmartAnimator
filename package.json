@@ -5,8 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "source": "babel ./src/ --out-dir lib",
-    "minify": "uglifyjs lib/smart-animator.js -c -m -o lib/smart-animator.min.js --source-map \"filename='lib/smart-animator.min.js.map'\"",
-    "build": "npm run source",
+    "build": "npm run source && npm run test",
     "dev": "webpack --progress --colors --watch --env dev",
     "test": "jest"
   },

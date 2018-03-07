@@ -1,5 +1,5 @@
 
-import { Animation, Animator, Parallel } from '../lib/smart-animator.js';
+import { Animation, Animator, Parallel } from '../lib/index.js';
 
 import _ from 'lodash';
 

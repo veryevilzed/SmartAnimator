@@ -1,6 +1,6 @@
 'use strict';
 
-import { State } from '../lib/smart-animator.js';
+import { State } from '../lib/index.js';
 
 test('test state switch', () => {
 
