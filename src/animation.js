@@ -1,6 +1,6 @@
 'use strict';
 
-import easing from './easing.js';
+import Easing from './easing.js';
 import _ from 'lodash';
 
 export default class Animation {
@@ -10,7 +10,7 @@ export default class Animation {
       time: 1,
       to: {},
       from: {},
-      easing: easing.linear,
+      easing: Easing.linear,
       run: false,
       autoAdd: true,
       strings: {}
@@ -49,7 +49,6 @@ export default class Animation {
       } else if (this.__dt >= this.params.time && this.params.to[key] !== undefined) {
         _.set(this.obj, key, this.params.to[key]);
       }
-
     });
 
     _.forEach(this.params.strings, (value, key) => {
