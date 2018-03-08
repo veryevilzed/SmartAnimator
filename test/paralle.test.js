@@ -1,5 +1,5 @@
 
-import { Animation, Animator, Parallel } from '../lib/index.js';
+import { Animation, Animator, Parallel } from '../src/index.js';
 
 import _ from 'lodash';
 

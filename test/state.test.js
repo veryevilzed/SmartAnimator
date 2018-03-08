@@ -1,6 +1,6 @@
 'use strict';
 
-import { State } from '../lib/index.js';
+import { State } from '../src/index.js';
 
 test('test state switch', () => {
 

@@ -1,5 +1,5 @@
 
-import { Animation } from '../lib/index.js';
+import { Animation } from '../src/index.js';
 
 test('test animation creation', () => {
   var anim = new Animation({}, {

@@ -1,5 +1,5 @@
 
-import { Animation, Animator } from '../lib/index.js';
+import { Animation, Animator } from '../src/index.js';
 
 test('test animator creation', () => {
   let obj = {

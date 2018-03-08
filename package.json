@@ -4,8 +4,8 @@
   "description": "Smart object animator",
   "main": "src/index.js",
   "scripts": {
-    "source": "babel ./src/ --out-dir lib",
-    "build": "npm run source && npm run test",
+//    "source": "babel ./src/ --out-dir lib",
+//    "build": "npm run source && npm run test",
     "test": "jest"
   },
   "repository": {
